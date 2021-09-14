@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box
+}
+header{
+    height: auto;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 -2px 19px rgb(0 0 0 / 25%);
+}
+header > div{
+    padding-top:5px;
+    background: #fff;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.Nav-Header ul{
+    text-align: center;
+}
+.Nav-Header li{
+    display: inline;
+    text-decoration: none;
+}
+.Nav-Header a{
+    font-family:Calibri;
+    color:black;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 14px    
+}
+.Caixa-Logo{
+    display: inline-block;
+    margin: 5px 0 4px 0;
+}
+.Caixa-Logo a{
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo{
+    display: block;
+    margin: 0 auto;
+    padding: auto;
+    max-width: 1000px;
+    padding: 0 30px 0 30px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #fefefe;
+}
+
+.titulo > h1{
+    display: block;
+    font-weight: 590;
+    font-size: 30px;   
+    color: #1b1b1b;
+    margin-block-start: 100px;
+}
+.legenda{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;   
+    color: #707070;
+    letter-spacing:1px;
+}
+.link{
+    color:rgb(210, 117, 30);
+    text-decoration: none;
+}
+.link:hover{
+    color:#1d71b8;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    clear: both; 
+}
+.slide-box{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+}
+.trecho-em-destaque{
+    font-size: 18px; 
+    letter-spacing:0px;
+    font-style: italic;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article p{
+    clear: left;
+    font-size: 18px; 
+    letter-spacing:1px;
+    line-height: 1.2; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.topico-importante{
+    font-size: 30px;
+    color: #1b1b1b;
+    margin: 15px 0 15px 0;
+}
+.image-box{
+    max-width: 350px;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+    margin: auto;
+}
+.box .legenda{
+   width: 900px;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+
+.image-coluna{
+    max-width: 300px;
+    width: auto;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+    margin: auto;
+}
+
+.gradiente{
+    background: linear-gradient(#fefefe 0%,#1d71b8 104%,#fefefe 100%);
+    padding: 2em 0 2em;
+    margin-top: 20px;
+    clear: both;
+    
+}
+.video{
+    text-align: center;
+}
+.video iframe{
+    box-shadow: 0 0 1em rgb(0 0 0 / 90%); 
+}
+.footer{
+    background-color: #1d71b8;
+    max-height: 900px;
+    width: 100%;
+}
+#copyright{
+    color: #000000;
+    font-size: 18px;
+    margin: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}

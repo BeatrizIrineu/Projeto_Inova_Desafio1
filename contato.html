@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <title>Maranhão - O melhor estado do Brasil - Contato</title>
+    <link rel="stylesheet" href="reset.css">  <!-- folha de estilo reset -->
+    <link rel="stylesheet" href="style-principal.css"> <!-- folha de estilo criada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet"><!-- fonte -->
+</head>
+<!-- body -->
+<body>
+    
+    <!-- cabeçalho de apresentação -->
+    <header>
+        <div>
+            <nav class="Nav-Header">
+                <!--Tag de navegação que engloba as paginas solicitadas-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tradicoes.html">Conheça as tradições do Maranhão</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="Caixa-Logo" style="margin: 5px 0 4px 0;">
+                <a href="https://www.ma.gov.br/">
+                    <!--Link para a pagina do governo do Maranhão-->
+                    <img src="nfe-maranhao.png" alt="Logo Maranhão">
+                    <!--Logo Maranhão-->
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main
+        style="display: block; margin: 0 auto; width: 900px; border-style: outset;background-color: rgb(0 0 0 / 5%);font-family: 'Open Sans', sans-serif; "> <!--estabelendo margem, fonte, alinhamento e borda-->
+        <h1 class="Contate-nos"><strong>Contate-Nos</strong></h1>
+        <form action="https://formspree.io/f/mrgrjbbv" method="POST"> <!--utilizando static form-->
+           
+            <!--Labels e inputs do formulario -->
+            <label for="name">Insira seu nome</label> 
+            <input type="text" id = "name" name="name" class="input-padrao" required placeholder = "Nome Sobrenome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="input-padrao" required placeholder = "email@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id ="telefone" name="phone" class="input-padrao" required placeholder ="(XX) XXXXX-XXXX">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea name="message" id="mensagem" class="input-padrao" required maxlength="144"></textarea>
+            <!--fildset -->
+            <fieldset>
+                <legend>Como prefere nosso contato</legend>
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                       
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whats"><input type="radio" name="contato" value="whats" id="radio-whats">Whatsapp</label>
+            </fieldset>
+            <fieldset style="margin-top: 10px;">
+                <legend>Qual horário prefere ser atentido</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <!--Checkbox-->
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+       
+                <input type="submit" value ="Enviar formulario" class="enviar">
+         </form>
+    </main>
+ <!-- footer -->
+    <footer>
+        <div style="box-shadow: 0 -2px 19px rgb(0 0 0 / 25%);"> <!--caixa esfumaçada para ficar ao entorno da mesma tag de navegação usada no cabeçalho-->
+            <nav class="Nav-Header">
+                <ul>
+                    <li><a href="index.html" style="font-family: 'Dosis', sans-serif;">Home</a></li>
+                    <li><a href="tradicoes.html" style="font-family: 'Dosis', sans-serif;">Conheça as tradições do
+                            Maranhão</a>
+                    </li>
+                    <li><a href="contato.html" style="font-family: 'Dosis', sans-serif;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p id="copyright"> &copy; 2021 Projetado por uma maranhense pra lá de apaixonada <a
+                href=" http://lattes.cnpq.br/4886990740689316">@Beatriz</a></p> <!--copyright-->
+    </footer> 
+</body>
+
+</html>
